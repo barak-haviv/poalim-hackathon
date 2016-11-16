@@ -13,6 +13,7 @@
 
 
 Route::get('/', 'WelcomeController@index');
+Route::get('/w2', 'WelcomeController@w2');
 
 Auth::routes();
 
